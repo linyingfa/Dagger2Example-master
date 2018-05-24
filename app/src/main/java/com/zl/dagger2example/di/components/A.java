@@ -1,7 +1,6 @@
 package com.zl.dagger2example.di.components;
 
 import com.zl.dagger2example.di.modules.AModule;
-import com.zl.dagger2example.ui.Text;
 
 import dagger.Component;
 
@@ -10,5 +9,5 @@ import dagger.Component;
  */
 @Component(modules = {AModule.class})
 public interface A {
-	void init(Text text);
+//	void init(TextActivity text);
 }

@@ -30,12 +30,12 @@ public class AppModule {
 	Context provideContext() {
 		return application;
 	}
-
+	@Singleton
 	@Provides
 	Stud provideStud() {
 		return new Stud();
 	}
-
+	@Singleton
 	@Provides
 	AA getAA() {
 		return new AA();
